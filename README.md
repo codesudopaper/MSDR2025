@@ -1,36 +1,40 @@
-This repository contains the code, data, experiments, and evaluation of the proposed method for imitation learning (IL) methods. The project is organized into four main folders:
+# Imitation Learning (IL) Methods
 
-1. Demo_utility/
-This folder contains the core Jupyter notebook, demo_utility.ipynb , for :
+This repository contains the code, datasets, experiments, and evaluations for a proposed method in **Beyond the Teacher*.  
 
-  Data Utility Scoring: Evaluation of different datasets.
+| Folder          | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| `Demo_utility/` | Core Jupyter notebook for **demo/data utility scoring** and **demo/data cleaning pipeline**. |
+| `Picknplace/`   | Implements the **Pick-and-Place task**, including datasets, models, and scoring notebooks (evaluation scripts). |
+| `Weaving/`      | Implements the **Weaving task**, including datasets, models, and scoring notebooks (evaluation scripts)  |
+| `Wiping/`       | Implements the **Wiping task**, including datasets, models, and scoring notebooks (evaluation scripts) |
 
-  Data Cleaning: Implements the proposed data cleaning pipeline
+---
 
-2. Picknplace/
-  This folder focuses on the pick-and-place task, containing all the necessary        components for data, models, and evaluation.
+## Folder Structure
 
-  data/: Contains the datasets used for training and testing.
+### 1. Demo_utility/
+Contains the core Jupyter notebook `demo_utility.ipynb`, which includes:
+- **Demo/Data Utility Scoring** – Quantitative evaluation of dataset usefulness for model training.
+- **Data Cleaning** – Implements the proposed data-cleaning pipeline.
 
-  models/: Contains Jupyter notebooks for training various IL models and generating   rollouts for different methods.
+### 2. Picknplace/
+Implements the **Pick-and-Place task**:
+- `data/` – Datasets for training and reward calculation.
+- `models/` – Jupyter notebooks for training IL models and generating rollouts.
+- `scoring/` – Notebooks for computing value maps and evaluating IL methods.
 
-  scoring/: Contains Jupyter notebook for calculating the value map and              evaluating the performance of different IL methods.
+### 3. Weaving/
+Implements the **Weaving task**:
+- `data/` – Task-specific datasets.
+- `models/` – Jupyter notebooks for model training and rollout generation.
+- `scoring/` – Notebooks for evaluation and scoring of IL methods.
 
-3. Weaving/
-  This folder is dedicated to the weaving task, with a structure identical to the     Picknplace/ folder.
-  
-  data/: Stores the datasets specific to the weaving task.
-  
-  models/: Contains Jupyter notebooks for training and generating rollouts for IL         models.
-  
-  scoring/: Contains the notebook for scoring and evaluating the performance of IL     methods on this task.
+### 4. Wiping/
+Implements the **Wiping task**:
+- `data/` – Task-specific datasets.
+- `models/` – Jupyter notebooks for training and rollout generation.
+- `scoring/` – Notebooks for evaluation and scoring of IL methods.
 
-4. Wiping/
-  This folder contains all the materials for the wiping task, following the same       organized structure.
-  
-  data/: Stores the datasets for the wiping task.
-  
-  models/: Contains Jupyter notebooks for training and generating rollouts for IL     models.
-  
-  scoring/: Contains the notebook for scoring and evaluating the performance of       different IL methods for this task.
+---
 
