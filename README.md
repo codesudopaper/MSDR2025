@@ -1,4 +1,4 @@
-# Imitation Learning (IL) Methods
+# Beyond the teacher : Novel pipeline for Imitation Learning (IL) Method
 
 This repository contains the code, datasets, experiments, and evaluations for a proposed method in **Beyond the Teacher*.  
 
