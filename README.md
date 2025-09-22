@@ -4,7 +4,7 @@ This repository contains the code, datasets, experiments, and evaluations for a 
 
 | Folder          | Description                                                                 |
 |-----------------|-----------------------------------------------------------------------------|
-| `Demo_utility/` | Core Jupyter notebook for **demo/data utility scoring** and **demo/data cleaning pipeline**. |
+| `Demo_utility/` | Core Jupyter notebook for **demo utility scoring** and **demo cleaning pipeline**. |
 | `Picknplace/`   | Implements the **Pick-and-Place task**, including datasets, models, and scoring notebooks (evaluation scripts). |
 | `Weaving/`      | Implements the **Weaving task**, including datasets, models, and scoring notebooks (evaluation scripts)  |
 | `Wiping/`       | Implements the **Wiping task**, including datasets, models, and scoring notebooks (evaluation scripts) |
@@ -15,7 +15,7 @@ This repository contains the code, datasets, experiments, and evaluations for a 
 
 ### 1. Demo_utility/
 Contains the core Jupyter notebook `demo_utility.ipynb`, which includes:
-- **Demo/Data Utility Scoring** – Quantitative evaluation of dataset usefulness for model training.
+- **Demo Utility Scoring** – Quantitative evaluation of dataset usefulness for model training.
 - **Data Cleaning** – Implements the proposed data-cleaning pipeline.
 
 ### 2. Picknplace/
